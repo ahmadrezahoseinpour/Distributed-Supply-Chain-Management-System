@@ -5,7 +5,7 @@ namespace InventoryService.Infrastructure
 {
     public class InventoryDbContext : DbContext
     {
-        public DbSet<Inventory> MyProperty { get; set; }
+        public DbSet<Inventory> Inventories { get; set; }
         public InventoryDbContext(DbContextOptions<InventoryDbContext> options) : base(options)
         {
         }
