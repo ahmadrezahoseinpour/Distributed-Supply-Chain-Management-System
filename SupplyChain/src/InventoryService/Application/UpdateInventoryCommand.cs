@@ -1,6 +1,7 @@
 ﻿using InventoryService.Domain;
 using InventoryService.Infrastructure;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace InventoryService.Application
 {
@@ -38,3 +39,4 @@ namespace InventoryService.Application
             return true;
         }
     }
+}
